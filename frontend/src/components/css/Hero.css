@@ -1,0 +1,19 @@
+/* In Hero.css */
+.Hero {
+    background-color: black;
+    width: 100%;
+    height: 250px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://th.bing.com/th/id/OIP.Ce2m8qM-qT6o1vVpH-0OrAHaEo?pid=ImgDet&rs=1);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  
+  .Hero > .search > input {
+    padding: 10px;
+    /* Add any other styles for the input element here */
+  }
+  
