@@ -2,11 +2,11 @@ import React from 'react'
 
 function Hero() {
   return (
-    <div>
+    <div className='hero_container'>
       <div className="Hero">
-        <form className=" search" >
+        <form className="col-lg-12 search" >
           <input
-            className="form-control me-1"
+            className="form-control me-1 col-lg-12"
             type="search"
             placeholder="Search"
             aria-label="Search"

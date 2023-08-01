@@ -1,6 +1,9 @@
 /* In Hero.css */
+.hero_container{
+  padding-top: 150px;
+}
 .Hero {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     width: 100%;
     height: 250px;
     display: grid;
@@ -17,3 +20,93 @@
     /* Add any other styles for the input element here */
   }
   
+
+  /* Offer Container */
+  .offer{
+    padding: 20px;
+    background-color: darkgoldenrod;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .offer:hover{
+    background-color: rgb(228, 172, 32);
+  }
+  .offer_image{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    
+  }
+
+  /* banner image */
+  .banner{
+
+    border-radius: 20px;
+  }
+  .banner_image{
+    width: 100%;
+    height: 100px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+/* In Product.css */
+/* product section */
+.product-container {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  /* Add any other styles for the container here */
+}
+
+.product {
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  border: 1px solid rgb(202, 202, 202);
+  margin: 5px; /* Add some spacing between product items */
+}
+
+.product_image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.product_price {
+  display: flex;
+  align-items: baseline;
+  margin-top: auto;
+  padding: 10px 0;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.product_button {
+  width: 100%;
+  border-radius: 20px;
+  background: #1a504c;
+  color: aliceblue;
+  padding: 5px;
+}
+.action{
+  margin-top: -200px;
+  padding-bottom: 200px;
+}
+.action_button{
+  display: flex;
+  justify-content: space-between;
+
+}
+.action_button button{
+  background: #ffffff;
+  border-radius: 20px;
+padding: 15px 18px;
+  color: rgb(0, 0, 0);
+
+}
